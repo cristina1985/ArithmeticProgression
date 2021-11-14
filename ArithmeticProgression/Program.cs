@@ -13,7 +13,7 @@ namespace ArithmeticProgression
 
             if (n >= 4)
             {
-                Console.WriteLine("Please enter the elements:");
+                Console.WriteLine("Please enter the elements (each one in new line):");
                 for (var index = 0; index < n; index++)
                 {
                     int x=int.Parse(Console.ReadLine());
